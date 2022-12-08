@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria DEV.F</title>
+</head>
+
+<body>
+    <h2>
+        Ordena tu pedido
+    </h2>
+    <p>
+        Rellene el formulario para tomar su pedido.
+    </p>
+    <form>
+        <input type="text" name="Nombre" placeholder="Indique su nombre" minlength="2" maxlength="25" required>
+        <br>
+        <br>
+        <input type="text" name="Email" placeholder="Indique su correo electronico" minlength="5" required>
+        <br>
+        <br>
+        <input type="text" name="Direccion" placeholder="Indique su direccion" minlength="5" required>
+        <h4>
+            Seleccione el tipo de pizza que quiere.
+        </h4>
+        <select name="PIZZAS" id="">
+            <option value="Vegana">Vegana</option>
+            <option value="Napolitana">Napolitana</option>
+            <option value="4 quesos">4 quesos</option>
+            <option value="Pepperoni">Pepperoni</option>
+
+        </select>
+        <h4>
+            ¿Cuantas pizzas necesita?
+        </h4>
+        <input type="number" name="Cantidad de pizzas" placeholder="Indique la Cantidad" min="1" max="10" required>
+        <h6>
+            (En el caso de poner más de 1 indicar cuales y cuantas necesita de c/u)
+        </h6>
+        <input type="text" name="Cantidad" placeholder="Indique cuales y cuantas necesita">
+        <h4>
+            Elija el horario de entrega.
+        </h4>
+        <input type="time" name="horario de entrega" required>
+        <h4>Programa el dia de entrega.</h4>
+        <h6>(Fechas sobre 30 dias no se tomaran en cuenta)</h6>
+        <input type="date" name="dia de entrega" required>
+        <h4> Selecione el tipo de pago.</h4>
+        <label>
+            Debito
+            <input type="radio" name="Debito o efectivo" required>
+        </label>
+        <br>
+        <label>
+            Efectivo
+            <input type="radio" name="Debito o efectivo" required>
+        </label>
+        <br>
+        <br>
+        <h6>Asegurese de haber respondido todo antes de enviar.</h6>
+        <input button type="submit">
+        </button>
+    </form>
+</body>
+
+</html>

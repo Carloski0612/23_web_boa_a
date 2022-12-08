@@ -1,0 +1,17 @@
+.h1 {
+    display: block;
+    background-color: blueviolet;
+    width: 200px;
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+
+}
+.h2 {
+    display: inline-block;
+    background-color: rgb(226, 43, 43);
+    width: 200px;
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+}
