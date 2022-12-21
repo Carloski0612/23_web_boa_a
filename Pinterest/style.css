@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 5px;
+}
+
+@media(max-width:800px) {
+    .column {
+        flex: 50%;
+    }
+}
+
+@media(max-width:600px) {
+    .column {
+        flex: 100%;
+    }
+}
+
+.img_Pinterest {
+    width: 70%;
+    display: inline-block;
+
+}
+
+.button_1 {
+    background-color: lightgray;
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+
+
+
+}
+
+.button_3 {
+    background-color: lightgray;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+
+}
+
+.button_4 {
+    background-color: red;
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.barra {
+
+    width: 700px;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+}

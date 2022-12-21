@@ -1,0 +1,20 @@
+.grid-area{
+    display: grid;
+    /* filas / columnas */
+    grid-template: 100px 100px / 200px 200px 300px;
+    grid-template-areas: "header platano"
+                         "pera pera";
+ }
+ .area-1{
+    background-color:blue;
+    grid-area: header;
+}
+.area-2{
+    background-color:white;
+
+    grid-area: platano;
+}
+.area-3{
+    background-color: red;
+    grid-area: pera;
+}

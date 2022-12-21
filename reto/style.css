@@ -1,4 +1,18 @@
-body{color: aqua;}
+.container{ 
+    width: 500px;
+    height: 700px;
+    border: 5px  solid black;
+
+}
+.black_box{
+    border: 5px black;
+
+}
+.item{
+width: 50%;
+height: 50%;
+
+}
 
 
 
